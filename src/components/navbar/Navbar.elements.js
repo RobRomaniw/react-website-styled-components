@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { GiSuperMushroom } from "react-icons/gi";
+import { FaCat } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(GiSuperMushroom)`
+export const NavIcon = styled(FaCat)`
   margin-right: 0.5rem;
 `;
 
@@ -107,4 +107,27 @@ export const NavLinks = styled(Link)`
       transition: all 0.3s ease;
     }
   }
+`;
+
+export const NavItemBtn = styled.li`
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+`;
+
+export const NavBtnLink = styled(Link)`
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
 `;
