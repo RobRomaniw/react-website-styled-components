@@ -1,3 +1,6 @@
+import photoShootImg from "../../images/photoshoot.svg";
+import beverageImg from "../../images/beverage.svg";
+
 export const homeObjOne = {
   primary: true,
   lightBg: false,
@@ -10,7 +13,7 @@ export const homeObjOne = {
   headline: "Lead Generation Specialist for Online Businesses",
   lightText: true,
   topLine: "Marketing Agency",
-  img: require("../../images/photoshoot.svg"),
+  img: photoShootImg,
   alt: "Image",
   start: "",
 };
@@ -27,7 +30,7 @@ export const homeObjTwo = {
   headline: "Lead Generation Specialist for Online Businesses",
   lightText: false,
   topLine: "Marketing Agency",
-  img: require("../../images/happy.jpg"),
+  img: beverageImg,
   alt: "Image",
   start: "true",
 };
